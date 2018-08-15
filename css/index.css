@@ -36,3 +36,19 @@
 {
     margin-top: 40px;
 }
+
+#footer
+{
+    background-color:  #00c4cc;
+    height: 50vh;
+}
+
+#footercont
+{
+    padding-top: 50px
+}
+
+#input
+{
+   border-radius: 30px;
+}

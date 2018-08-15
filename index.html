@@ -10,17 +10,17 @@
 <body>
     <header>
         <div class="navbar-fixed">
-            <nav style="background-color: #00c4cc">
+            <nav style="background-color: #00c4cc;">
                 <div class="nav-wrapper">
-                    <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="#" data-target="nav-mobile" onclick="sidenavinstance.open()"><i class="material-icons button-collapse">menu</i></a><a class="brand-logo" href="/"><img src="images/logo.png"/></a>
+                    <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="index.html" data-target="nav-mobile" onclick="sidenavinstance.open()"><i class="material-icons button-collapse">menu</i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
                         <ul class="right hide-on-med-and-down" id="nav-mobile">
-                            <li><a class="white-text" href="/">Home</a></li>
+                            <li><a class="white-text" href="index.html">Home</a></li>
                             <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
 
-                            <li><a class="white-text" href="/about">About</a></li>
-                            <li><a class="white-text" href="/contact">Contact</a></li>
-                            <li><a class="white-text" href="Register">Register</a></li>
-                            <a class="brand-logo" href="/"><img src="images/raisoni.png"/></a>
+                            <li><a class="white-text" href="#div2">About</a></li>
+                            <li><a class="white-text" href="#footer">Contact</a></li>
+                            <li><a class="white-text" href="#">Register</a></li>
+                            <a class="brand-logo" href="index.html"><img src="images/raisoni.png"/></a>
                         </ul>
                     </div>
 
@@ -197,7 +197,7 @@
         </div>
     </div>
 
-    <div>
+    <div style="margin-bottom: 40px">
         <div class="container">
             <h5 class="center" id="description">
                 <br><br>
@@ -207,13 +207,30 @@
             </h5>
             <br>
             <h5 id="description">
-               <b> ICISIA 2018 - Proceedings of the International Conference on Emerging Trends in Engineering & Technology on Information Security and Analytics indexed by Helix, EISSN 2319-5592, ESCI Thomson Reuters, Crossref DOI.</b>
+                <b> ICISIA 2019 - Proceedings of the International Conference on Emerging Trends in Engineering & Technology on Information Security and Analytics indexed by Helix, EISSN 2319-5592, ESCI Thomson Reuters, Crossref DOI.</b>
             </h5>
         </div>
     </div>
 
 
-
+    <footer id="footer">
+        <div class="row">
+            <div class="container" id="footercont">
+                <div class="col s12 m6 l4">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="col s12 m6 l8">
+                    <h5 class="center white-text">CONTACT</h5>
+                    <div class="input-field col s12 white" id="input">
+                        <input placeholder="E-mail" id="name" type="email" class="validate center">
+                    </div>
+                    <div class="input-field col s12 white" id="input" style="padding-top: 30px">
+                        <textarea id="textarea" class="materialize-textarea center" placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
