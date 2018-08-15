@@ -13,32 +13,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="navbar-fixed">
-            <nav style="background-color: #00c4cc;">
-                <div class="nav-wrapper">
-                    <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="index.html" data-target="nav-mobile" onclick="sidenavinstance.open()"><i class="fas fa-bars"></i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
-                        <ul class="right hide-on-med-and-down" id="nav-mobile">
-                            <li><a class="white-text" href="index.html">Home</a></li>
-                            <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
+    <nav style="background-color: #00c4cc;">
+        <div class="nav-wrapper">
+            <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="index.html"><i class="fas fa-bars sidenav-trigger" data-target="slide-out"></i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
+                <ul class="right hide-on-med-and-down" id="nav-mobile">
+                    <li><a class="white-text" href="index.html">Home</a></li>
+                    <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
 
-                            <li><a class="white-text" href="#div2">About</a></li>
-                            <li><a class="white-text" href="#footer">Contact</a></li>
-                            <li><a class="white-text" href="#">Register</a></li>
-                            <a class="brand-logo" href="index.html"><img src="images/raisoni.png"/></a>
-                        </ul>
-                    </div>
+                    <li><a class="white-text" href="#div2">About</a></li>
+                    <li><a class="white-text" href="#footer">Contact</a></li>
+                    <li><a class="white-text" href="#">Register</a></li>
+                    <a class="brand-logo" href="index.html"><img src="images/raisoni.png"/></a>
+                </ul>
+            </div>
 
-                </div>
-            </nav>
         </div>
-        <ul class="sidenav" id="nav-mobile">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#div2">About</a></li>
-            <li><a href="#footer">Contact</a></li>
-            <li><a href="#">Register</a></li>
-        </ul>
-    </header>
+    </nav>
+    <ul id="slide-out" class="sidenav">
+        <li><a class="white-text" href="index.html">Home</a></li>
+        <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
+
+        <li><a class="white-text" href="#div2">About</a></li>
+        <li><a class="white-text" href="#footer">Contact</a></li>
+        <li><a class="white-text" href="#">Register</a></li>
+    </ul>
+
 
 
 
@@ -166,12 +165,12 @@
             <div class="divider" style="width: 290px" data-aos="zoom-in"></div>
             <br>
             <div class="row" style="padding-bottom: 40px">
-                <div class="col s12 m6 l6 center">
+                <div class="col s12 l6 center">
                     <img src="images/sp1.jpg" alt="" style="overflow: hidden">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
                 </div>
-                <div class="col s12 m6 l6 center">
+                <div class="col s12 l6 center">
                     <img src="images/sp2.jpg" alt="">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
@@ -272,7 +271,6 @@
         </div>
     </div>
     <script>
-
         AOS.init();
 
     </script>
