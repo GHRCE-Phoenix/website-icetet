@@ -8,6 +8,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="js/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
     <title>ICETET-ISA 2019</title>
 </head>
 
@@ -16,7 +17,7 @@
         <div class="navbar-fixed">
             <nav style="background-color: #00c4cc;">
                 <div class="nav-wrapper">
-                    <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="index.html" data-target="nav-mobile" onclick="sidenavinstance.open()"><i class="material-icons button-collapse">menu</i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
+                    <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="index.html" data-target="nav-mobile" onclick="sidenavinstance.open()"><i class="fas fa-bars"></i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
                         <ul class="right hide-on-med-and-down" id="nav-mobile">
                             <li><a class="white-text" href="index.html">Home</a></li>
                             <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
@@ -32,11 +33,10 @@
             </nav>
         </div>
         <ul class="sidenav" id="nav-mobile">
-            <li><a href="/">Home</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/shop">Shop</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#div2">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#">Register</a></li>
         </ul>
     </header>
 
@@ -48,11 +48,11 @@
     <div id="index-banner" class="parallax-container" style="height: 98vh">
         <div class="section">
             <div class="row container" style="margin-top: 220px;">
-                <h1 class="white-text center" style="font-size: 120px" data-aos="zoom-in">ICETET- ISA 2019</h1>
+                <h1 class="white-text center" data-aos="zoom-in">ICETET- ISA 2019</h1>
                 <h5 class="white-text center" data-aos="fade-right"> International Conference on Emerging Trends in Engineering & Technology on Information Security and Analytics.
                     <br><br>
                 </h5>
-                   <h5 data-aos="fade-left" class="center white-text"> Nagpur, Maharashtra
+                <h5 data-aos="fade-left" class="center white-text"> Nagpur, Maharashtra
                     <br> June 1-2 2019</h5>
             </div>
         </div>
@@ -64,7 +64,7 @@
         <h2 class="center light" style="text-transform: uppercase;color: #00c4cc">
             call for papers
         </h2>
-        <div class="divider" style="margin-left: 290px;" data-aos="zoom-in">
+        <div class="divider" style="margin-left: 30%;" data-aos="zoom-in">
 
         </div>
         <br>
@@ -82,7 +82,7 @@
             <h5 class="center" id="description">
                 <br><br><br>
                 <span id="destitle" style="margin-top: 20px;">
-                    Submission Guidelines
+                    Submission <br><br> Guidelines
                 </span>
                 <br><br><br> Authors are invited to submit papers through easy chair conference management system <br><a href="https://easychair.org/conferences/?conf=icisa2018">(https://easychair.org/conferences/?conf=icisa2018)</a>
                 <br> by 5th March 2019. Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference. All papers should be formatted as close as possible to the final format (templates are available on this Web site for your convenience). <br>Template: <a href="Helix%20Templates.doc">(Word format)</a> <br>The author can use following link for formatting the paper: <a href="http://helix.dnares.in/authors/">http://helix.dnares.in/authors/</a> Regular paper of length 5 are accepted for oral presentations. Rs. 800/- or 15 USD (for international authors) will be charged per page if exceeds 5 pages
@@ -166,13 +166,13 @@
             <div class="divider" style="width: 290px" data-aos="zoom-in"></div>
             <br>
             <div class="row" style="padding-bottom: 40px">
-                <div class="col s12 m6 l6">
-                    <img src="images/team01.jpg" alt="">
+                <div class="col s12 m6 l6 center">
+                    <img src="images/sp1.jpg" alt="" style="overflow: hidden">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
                 </div>
-                <div class="col s12 m6 l6">
-                    <img src="images/team02.jpg" alt="">
+                <div class="col s12 m6 l6 center">
+                    <img src="images/sp2.jpg" alt="">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
                 </div>
@@ -249,31 +249,34 @@
                     <h5 class="white-text">
                         SITEMAP
                     </h5>
-                        <div class="row white-text">
-                            <div class="col l3 ">
-                                <a href="#" class="white-text">HOME</a>
-                            </div>
-                            <div class="col l3">
-                                <a href="#div2" class="white-text">ABOUT</a>
-                            </div>
-                            <div class="col l3">
-                                <a href="mailto:sahilkindarle212@gmail.com" class="white-text">CONTACT</a>
-                            </div>
-                            <div class="col l3">
-                                <a href="#" class="white-text">REGISTER</a>
-                            </div>
+                    <div class="row white-text">
+                        <div class="col l3 ">
+                            <a href="#" class="white-text">HOME</a>
                         </div>
-                        <br>
-                        <div>
-                            <h6 class="center white-text">Made with <i class="fas fa-heart" style="padding: 6px"></i>By <a href="https://sahilkindarle.github.io/" class="white-text"><u>Sahil Kindarle</u></a></h6>
+                        <div class="col l3">
+                            <a href="#div2" class="white-text">ABOUT</a>
                         </div>
+                        <div class="col l3">
+                            <a href="mailto:sahilkindarle212@gmail.com" class="white-text">CONTACT</a>
+                        </div>
+                        <div class="col l3">
+                            <a href="#" class="white-text">REGISTER</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h6 class="center white-text">Made with <i class="fas fa-heart" style="padding: 6px"></i>By <a href="https://sahilkindarle.github.io/" class="white-text"><u>Sahil Kindarle</u></a></h6>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script>
+
         AOS.init();
+
     </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 </body>
 
 </html>
