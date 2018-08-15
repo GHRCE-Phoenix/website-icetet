@@ -1,4 +1,9 @@
- document.addEventListener('DOMContentLoaded', function () {
-     var elems = document.querySelectorAll('.sidenav');
-     var instances = M.Sidenav.init(elems, options);
- });
+var sidenavinstance;
+
+
+$(document).ready(function () {
+    M.AutoInit();
+    var sidenav = document.querySelector('.sidenav');
+    sidenavinstance = M.Sidenav.init(sidenav);
+    AOS.init();
+});

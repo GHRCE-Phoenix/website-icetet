@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/aos.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified JavaScript -->
     <script src="js/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
@@ -15,7 +16,7 @@
 <body>
     <nav style="background-color: #00c4cc;">
         <div class="nav-wrapper">
-            <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="index.html"><i class="fas fa-bars sidenav-trigger" data-target="slide-out"></i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
+            <div class="container"><a class="white-text sidenav-trigger hide-on-large-only" href="#" data-target="nav-mobile" onclick="sidenavinstance.open()">  <i class="material-icons button-collapse">add</i></a><a class="brand-logo" href="index.html"><img src="images/logo.png"/></a>
                 <ul class="right hide-on-med-and-down" id="nav-mobile">
                     <li><a class="white-text" href="index.html">Home</a></li>
                     <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
@@ -29,7 +30,7 @@
 
         </div>
     </nav>
-    <ul id="slide-out" class="sidenav">
+    <ul id="nav-mobile" class="sidenav">
         <li><a class="white-text" href="index.html">Home</a></li>
         <!--<li><a class="white-texrt" href="/shop">Shop</a></li>-->
 
@@ -44,7 +45,7 @@
 
 
 
-    <div id="index-banner" class="parallax-container" style="height: 98vh">
+    <div id="index-banner" class="parallax-container" style="height:100%">
         <div class="section">
             <div class="row container" style="margin-top: 220px;">
                 <h1 class="white-text center" data-aos="zoom-in">ICETET- ISA 2019</h1>
@@ -165,12 +166,12 @@
             <div class="divider" style="width: 290px" data-aos="zoom-in"></div>
             <br>
             <div class="row" style="padding-bottom: 40px">
-                <div class="col s12 l6 center">
+                <div class="col s12 m6 center">
                     <img src="images/sp1.jpg" alt="" style="overflow: hidden">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
                 </div>
-                <div class="col s12 l6 center">
+                <div class="col s12 m6 center">
                     <img src="images/sp2.jpg" alt="">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
@@ -183,17 +184,17 @@
             <div class="divider" style="width: 290px" data-aos="zoom-in"></div>
             <br><br>
             <div class="row">
-                <div class="col s12 m4 l4 center">
+                <div class="col s12 m4 center">
                     <img src="images/sp1.jpg" alt="">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
                 </div>
-                <div class="col s12 m4 l4 center">
+                <div class="col s12 m4 center">
                     <img src="images/sp2.jpg" alt="">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
                 </div>
-                <div class="col s12 m4 l4 center">
+                <div class="col s12 m4 center">
                     <img src="images/sp3.jpg" alt="">
                     <h5>NAME NAME NAME</h5>
                     <h7>POSITION POSITION</h7>
@@ -274,7 +275,7 @@
         AOS.init();
 
     </script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </body>
 
 </html>
