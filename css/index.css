@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#description
+{
+    font-size: 17px;
+    word-spacing: 10px;
+
+}
+
+
+#destitle
+{
+    font-size: 37px;
+    color: darkorange;
+    text-transform: uppercase;
+}
+.divider
+{
+    height: 2px;
+    background-color: #00c4cc;
+    width: 440px;
+
+}
+#div3
+{
+    background-color: #f1f1f1;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+#lol
+{
+    margin-top: 40px;
+}
