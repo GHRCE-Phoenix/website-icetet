@@ -1,9 +1,9 @@
-var sidenavinstance;
-
-
-$(document).ready(function () {
-    M.AutoInit();
-    var sidenav = document.querySelector('.sidenav');
-    sidenavinstance = M.Sidenav.init(sidenav);
-    AOS.init();
-});
+    var elem = document.querySelector('.sidenav');
+    var instance = M.Sidenav.init(elem, {
+        onOpenStart: function() {
+            console.log("I trigger as soon as the page is loaded");
+        },
+        onCloseEnd: function() {
+            console.log("same");
+        }
+    });
